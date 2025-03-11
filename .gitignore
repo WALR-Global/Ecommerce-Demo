@@ -22,7 +22,7 @@ build
 .env.production.local
 
 # If Packages have their independent repo
-# /packages
+# /Interfaces
 
 # ignore log files
 npm-debug.log*
@@ -42,12 +42,12 @@ yarn-debug.log*
 yarn-error.log*
 /.changelog
 .npm/
-packages/server/node_modules
-packages/server/error.log
-packages/server/debug.log
-packages/web/.env
-packages/reusecore
-packages/cloud
+Interfaces/server/node_modules
+Interfaces/server/error.log
+Interfaces/server/debug.log
+Interfaces/web/.env
+Interfaces/reusecore
+Interfaces/cloud
 dist/
 
 .docz
